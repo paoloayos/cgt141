@@ -1,0 +1,254 @@
+@charset "UTF-8";
+/* Body */
+body {
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	background-color: #FFFFFF;
+	margin: 0;
+}
+/* Container */
+.container {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #FFFFFF;
+}
+/* Header */
+header {
+	width: 100%;
+	height: 8%;
+	background-color: #cfb991;
+	box-shadow: 0 8px 6px -7px black;
+}
+.strip {
+	background-color: #cfb991;
+	height:25px;
+}
+
+
+.main_strip {
+	background-color: #000000;
+	color: #ffffff;	
+	padding: 10px;
+}
+.main_strip .center{
+	width: 80%;
+	display: table;
+    margin: 0 auto;
+}
+.main_strip .title_main {	
+    display: table-cell;
+	vertical-align: middle;
+	padding-right: 600px;
+	
+}
+.main_strip img {
+	width: 150px;
+	float: left;
+}
+.tabs {
+	background-color: #ffffff;
+	height: 30px;
+}
+.tabs .center{
+	width: 80%;
+	display: table;
+    margin: 0 auto;
+}
+.tabs .center a {
+	width: 200px;
+	
+	margin-top: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	padding-top: 0px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	text-align: center;
+	vertical-align: middle;
+	border-radius: 0px;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-decoration: none;
+	color: #000000;
+	transition: all 0.3s linear;
+}
+
+.tabs .center a:hover{
+	background-color: #CCCCCC;
+	cursor: pointer;
+}
+
+.info {
+	 background-color: #333333;
+	
+}
+.hero_header {
+	color: #FFFFFF;
+	text-align: center;
+	margin: 0;
+	letter-spacing: 4px;
+}
+
+.text_column {
+	width: 90%;
+	text-align: left;
+	font-weight: lighter;
+	line-height: 25px;
+	float: left;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #8f8f8f;
+}
+.gallery {
+	clear: both;
+	display: inline-block;
+	width: 100%;
+	background-color: #464646;
+	/* [disabled]min-width: 400px;
+*/
+	padding-bottom: 35px;
+	padding-top: 0px;
+	margin-top: -5px;
+	margin-bottom: 0px;
+	width: 80%;
+	display: table;
+    margin: 0 auto;
+}
+.thumbnail {
+	width: 23%;
+
+	text-align: center;
+	float: left;
+	margin-top: 35px;
+	background-color: #F8F8F8;
+	padding-bottom: 20px;
+	margin-left: 1%;
+	margin-right: 1%;
+	border-radius: 3px;
+	padding-top: 20px; 
+	border-bottom: 4px solid #cfb991;
+}
+.gallery .thumbnail h4 {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	color: #52BAD5;
+	text-align: left;
+	padding-left: 20px;
+	padding-right: 20px;
+	
+}
+.gallery .thumbnail p {
+	margin: 0;
+	color: #666666;
+	text-align: left;
+	padding-left: 20px;
+}
+.gallery .title {
+
+	text-align: center;
+	background-color: #f8f8f8;
+	border-bottom: 4px solid #cfb991;
+	
+}
+
+/* More info */
+
+.intro {
+	width: 80%;
+	background-color: #333333;
+	padding-bottom: 35px;
+	display: flex;
+    margin: auto;
+	justify-content: center;
+	
+}
+.column {
+	width: 50%;
+	text-align: center;
+	padding-top: 30px;
+	float: left;
+}
+.intro .column h3 {
+	color: #FFFFFF;
+	text-align: center;
+	
+}
+.intro .column p {
+	color: #FFFFFF;
+}
+.cards {
+	width: 100%;
+	height: auto;
+	max-width: 100%;
+    max-height: 100%;
+	opacity: 0.8;
+}
+.intro .column p {
+	padding-left: 30px;
+	padding-right: 30px;
+	text-align: justify;
+	line-height: 25px;
+	font-weight: lighter;
+	margin-left: 20px;
+	margin-right: 20px;
+	width: 80%;
+	margin-top: 4%;
+}
+.button {
+	width: 200px;
+	margin-top: 40px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	padding-top: 20px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	text-align: center;
+	vertical-align: middle;
+	border-radius: 0px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+	border: 3px solid #FFFFFF;
+	color: #FFFFFF;
+	transition: all 0.3s linear;
+}
+.button:hover {
+	background-color: #cfb991;
+	color: #FFFFFF;
+	cursor: pointer;
+}
+.bottom_strip {
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #cfb991;
+	color: #0000000;
+	
+	
+	
+}
+footer {
+	background-color: #000000;
+	padding-top: 60px;
+	padding-bottom: 60PX;
+}
+.intro {
+    display: inline-block;
+    background-color: #333333;
+}
+.profile {
+	width: 50%;
+}
+
+.gallery .thumbnail .price {
+	color: #333333;
+	padding-bottom: 4px;
+	padding-top: 4px;
+	text-align: left;
+	padding-left: 20px;
+	padding-right: 20px;
+}
