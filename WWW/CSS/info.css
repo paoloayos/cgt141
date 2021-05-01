@@ -316,3 +316,12 @@ a {
 	padding:0;
 	text-decoration: underline;
 }
+
+input[type=text]{
+    width:50%;
+		border-bottom: 4px solid #cfb991;
+}
+
+fieldset {
+	border-bottom: 4px solid #cfb991;
+}
